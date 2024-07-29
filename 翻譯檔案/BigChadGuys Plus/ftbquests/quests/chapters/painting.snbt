@@ -1,0 +1,853 @@
+{
+	autofocus_id: "571F3A97634D695D"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "painting"
+	group: "603B751E64357194"
+	icon: {
+		Count: 1
+		id: "wands:palette"
+		tag: { }
+	}
+	id: "3846AF46F7915A4E"
+	images: [
+		{
+			height: 1.0d
+			image: "xercamusic:item/instruments/bass_guitar"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "xercamusic:item/instruments/drum_kit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&b繪畫的樂趣&r是一個有趣的生活模組，允許你在 Minecraft 中繪畫。你可以使用以下命令導入和導出繪畫："
+				""
+				"/paintexport <名稱>"
+				"/paintimport <名稱>"
+				""
+				"要導入，請確保繪畫位於 Minecraft 目錄的 "
+				"Paintings"
+				" 文件夾中。"
+				""
+				"在生存模式下導入繪畫時，你需要手持一個空白畫布和一個裝滿的&b調色板&r。"
+			]
+			id: "231D77060442F837"
+			optional: true
+			rewards: [{
+				id: "1CC8F4BB4D84CC18"
+				item: {
+					Count: 1
+					id: "xercapaint:item_palette"
+					tag: {
+						basic: [B;
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+						]
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "4910E26950315E12"
+				title: "繪畫的樂趣"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "7B1AD7697F6060F5"
+			rewards: [{
+				count: 2
+				id: "13F4063C8A82D5C3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "小幅作品"
+			tasks: [{
+				id: "6825A7D38CD50B00"
+				item: "xercapaint:item_canvas"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "5EA9125A9BF9775B"
+			rewards: [{
+				count: 2
+				id: "0378B5C2C42270F8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "大幅作品"
+			tasks: [{
+				id: "3E8A3B89EA5D5F4C"
+				item: "xercapaint:item_canvas_large"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "4044158CC248727F"
+			rewards: [{
+				count: 2
+				id: "2A5F2D083E34369B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "長幅作品"
+			tasks: [{
+				id: "047348372AC3B6EB"
+				item: "xercapaint:item_canvas_long"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "6CD0CD5CC6341CF1"
+			rewards: [{
+				count: 2
+				id: "40CFD72BFE078981"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "幫我拿著畫布"
+			tasks: [{
+				id: "14F2AAB91E72E81E"
+				item: "xercapaint:item_easel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "009757B4A12F35B4"
+			rewards: [{
+				count: 2
+				id: "511DF00611CA5B99"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "高幅作品"
+			tasks: [{
+				id: "2A293F3816CE886C"
+				item: "xercapaint:item_canvas_tall"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "368118D5F70064BF"
+			rewards: [{
+				count: 16
+				id: "684594CA3353096C"
+				item: "minecraft:lime_concrete"
+				title: "有人說綠幕嗎？"
+				type: "item"
+			}]
+			subtitle: "說「茄子」！"
+			tasks: [{
+				id: "78C7597DAC95069A"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"暗房需要以下物品才能運作："
+				""
+				"&b紙&r"
+				"&b青色染料&r"
+				"&b洋紅色染料&r"
+				"&b黃色染料&r"
+				"&b黑色染料&r"
+				""
+				"一旦這五種材料都放入工作台中，你就可以插入你的膠捲並查看照片的底片。點擊左側和右側的底片可以沿著膠捲滾動。點擊中間的圖片可以放大查看照片。"
+				""
+				"選擇你喜歡的照片後，點擊列印並等待！很快你就會擁有自己的照片！"
+			]
+			icon: "exposure:lightroom"
+			id: "241425F79B9CDF6D"
+			rewards: [{
+				id: "75D683C517136D6F"
+				item: "exposure:color_film"
+				type: "item"
+			}]
+			subtitle: "點擊了解更多！"
+			tasks: [
+				{
+					id: "4F74E6A90C22A5B5"
+					item: "exposure:lightroom"
+					type: "item"
+				}
+				{
+					id: "21ADDF278C6177D0"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+				{
+					id: "63BF8039CA91E6CD"
+					item: "minecraft:magenta_dye"
+					type: "item"
+				}
+				{
+					id: "575F8F6F8B618D75"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					id: "3F144E590EE39413"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					id: "5A9D0FF3B44674A0"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"用黑白膠捲拍攝完想要的照片後，將其與一瓶水結合開始沖洗，得到沖洗好的膠捲。"
+				""
+				"一旦你有了沖洗好的膠捲，就可以進入暗房了！"
+			]
+			id: "27427A42EA7BE650"
+			subtitle: "點擊了解更多！"
+			tasks: [
+				{
+					id: "421E8DA2BD2867D9"
+					item: "exposure:black_and_white_film"
+					type: "item"
+				}
+				{
+					id: "4B28D56BDBA89C08"
+					item: "exposure:developed_black_and_white_film"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"用彩色膠捲拍攝完想要的照片後，將其與&b平凡的藥水&r、&b粗製的藥水&r和&b濃稠的藥水&r結合開始沖洗，得到沖洗好的膠捲。"
+				""
+				"一旦你有了沖洗好的膠捲，就可以進入暗房了！"
+			]
+			id: "70A627EADC8BFAC6"
+			subtitle: "點擊了解更多！"
+			tasks: [
+				{
+					id: "2BCFA8EB745D91FB"
+					item: "exposure:color_film"
+					type: "item"
+				}
+				{
+					id: "30330B61F94B0E25"
+					item: "exposure:developed_color_film"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: ["&b相冊&r可以讓你存儲照片並簽名，以便出售給他人或分發獨一無二的照片副本！記得在簽名並贈送相冊之前，始終為你的照片製作一份副本！"]
+			id: "35D3FE612F5E0B77"
+			rewards: [{
+				id: "7678899E2FDA1AEA"
+				item: "exposure:color_film"
+				type: "item"
+			}]
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "3FC0069395FBBCA4"
+				item: "exposure:album"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["這些照片可以複製；如果你按住 Shift 鍵查看照片，它會告訴你如何複製。你也可以直接將它們放置在世界中的方塊上，創建一個照片展覽。此外，你可以將它們存儲在&b相冊&r中。"]
+			id: "042313B4411102D4"
+			rewards: [{
+				id: "265030B4A786DCFC"
+				item: "exposure:black_and_white_film"
+				type: "item"
+			}]
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "08F926D9A031ABA8"
+				item: "exposure:photograph"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"將膠捲插入&b相機&r時，你會注意到右側有三個額外的插槽。它們分別用於："
+				""
+				"閃光燈：紅石燈"
+				"變焦：望遠鏡"
+				"濾色鏡：任何彩色玻璃板"
+				""
+				"閃光燈在你拍照時發出光線，照亮黑暗中的圖像。"
+				""
+				"變焦功能使你能夠從廣角鏡頭切換到長焦鏡頭。焦距越短，相機的視野就越寬。"
+				""
+				"濾色鏡將所選彩色玻璃板的濾鏡應用於照片，為圖像添加色調或色彩。"
+			]
+			id: "22C2805FB91F6B4C"
+			optional: true
+			rewards: [{
+				id: "3749581700737F05"
+				item: "exposure:black_and_white_film"
+				type: "item"
+			}]
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "64CA079DCB6A7059"
+				title: "曝光"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon: "xercamusic:guitar"
+			id: "55BBBD0F1205F0A1"
+			rewards: [{
+				id: "6FD9B6299864F14C"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "你聽過這首歌嗎？*彈奏 Wonderwall*"
+			tasks: [{
+				id: "4A4EE08941F741AD"
+				item: "xercamusic:guitar"
+				title: "獲得一把吉他"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["一旦你拿著樂器，你可以通過點擊每個音符來熟悉它。此外，你可以通過按下'&bQ&r'到'&b]&r'鍵來循環切換八度音階並演奏音符。"]
+			id: "6AC66550640E7631"
+			optional: true
+			rewards: [{
+				id: "4DC2450450F540F2"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "41145DCE426B04DB"
+				title: "如何演奏"
+				type: "checkmark"
+			}]
+			title: "如何演奏"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AC66550640E7631"]
+			description: ["使用鼠標或按鍵可能感覺有點原始。幸運的是，如果你有 MIDI 設備，你可以使用它來進行輸入和演奏！"]
+			id: "30B6EF9CB0C81E1B"
+			optional: true
+			rewards: [{
+				id: "28AB691997E3A8BC"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "53801A2017B3C16B"
+				title: "如何演奏"
+				type: "checkmark"
+			}]
+			title: "其他方法"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "48322F5414D1F69B"
+			subtitle: "節拍器是音樂家必備的工具，可確保練習和表演時的精確節奏和時間。"
+			tasks: [{
+				id: "46E600E20C3BEA71"
+				item: "xercamusic:metronome"
+				title: "獲得一個節拍器"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "31CE3E5B96E5CF9A"
+			subtitle: "要播放錄音，請使用音樂盒。插入樂器和已簽名的樂譜，用紅石信號啟動，然後欣賞你的傑作！"
+			tasks: [{
+				id: "52F0693C9C433883"
+				item: "xercamusic:music_box"
+				title: "獲得一個音樂盒"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "01FD5DA21F3F003C"
+			subtitle: "這就是你創作旋律的方式——在副手持有樂器，然後拼湊出你的作品。"
+			tasks: [{
+				id: "030B0EEE049156B5"
+				item: "xercamusic:music_sheet"
+				title: "獲得一張樂譜"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "2F48FDBD8B0CF7F5"
+			rewards: [{
+				id: "1C69A32A2101D1B7"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "拍它。"
+			tasks: [{
+				id: "540B6E6074B35F13"
+				item: "xercamusic:bass_guitar"
+				title: "獲得一把貝斯吉他"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			id: "38E592461B77BCEF"
+			rewards: [{
+				id: "67DB14F3E01F1EF0"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "樂隊迷的首選。"
+			tasks: [{
+				id: "4B992253B1C12734"
+				item: "xercamusic:french_horn"
+				title: "獲得一支法國號"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "2E98457469F7CEE1"
+			rewards: [{
+				id: "71ED0CC23F22F849"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "喬治·邁克爾（布魯斯）"
+			tasks: [{
+				id: "208E3B11ED0979CA"
+				item: "xercamusic:saxophone"
+				title: "獲得一支薩克斯風"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "25314F58263A4A40"
+			rewards: [{
+				id: "1EEB66140F2870B2"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "如此遙遠，我們等待著那一天，為所有浪費和失去的生命，我們感受到一生的痛苦在千日中消逝，穿越火焰和烈焰，我們堅持前行。"
+			tasks: [{
+				id: "5A7F87825B9715AD"
+				item: "xercamusic:redstone_guitar"
+				title: "獲得一把紅石吉他"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "41AF99955491F252"
+			rewards: [{
+				id: "187E98C8E5BF559B"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "虛構的樂器。（僅存在於 Minecraft 中）"
+			tasks: [{
+				id: "11510E81FB0144E8"
+				item: "xercamusic:oboe"
+				title: "獲得一支雙簧管"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "20D8C2257EE04695"
+			rewards: [{
+				id: "791325F792F153FA"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "比利·喬爾的參考？"
+			tasks: [{
+				id: "34CC34ACD12AFF6B"
+				item: "xercamusic:piano"
+				title: "獲得一架鋼琴"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "221B8D09122E8DE4"
+			rewards: [{
+				id: "1643E5980778EC71"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "一個花哨的豌豆射手。"
+			tasks: [{
+				id: "5CCD9493F0F27418"
+				item: "xercamusic:flute"
+				title: "獲得一支長笛"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "4F5D2570F65A2156"
+			rewards: [{
+				id: "64395EB585A257C3"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "喬·喬·馬"
+			tasks: [{
+				id: "73D0A67D562DD872"
+				item: "xercamusic:cello"
+				title: "獲得一把大提琴"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "3390355DEA3ACEA2"
+			rewards: [{
+				id: "463A08708BE5E2EB"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "適合伊扎克·帕爾曼的角色扮演。"
+			tasks: [{
+				id: "2E62A1CFC830D4FB"
+				item: "xercamusic:violin"
+				title: "獲得一把小提琴"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			id: "7DEC1D5A0426554D"
+			rewards: [{
+				id: "2AF40B9A65B7F5CF"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "是時候來點 ASMR 了。"
+			tasks: [{
+				id: "7D25152C02FDB9C6"
+				item: "xercamusic:sansula"
+				title: "獲得一個拇指琴"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "3E4623760E0D0AEA"
+			rewards: [{
+				id: "48C7EE8C9D50E767"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "交給風吧。"
+			tasks: [{
+				id: "6B92B1411B5F8216"
+				item: "xercamusic:tubular_bell"
+				title: "獲得一些風鈴"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "7304C250F2D04B1C"
+			rewards: [{
+				id: "20889138A705C65F"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "我對木琴沒有什麼機智的話。"
+			tasks: [{
+				id: "44F364816A85557A"
+				item: "xercamusic:xylophone"
+				title: "獲得一個木琴"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			id: "2E186680AF5C4EE6"
+			rewards: [{
+				id: "2C587E85792D3B4D"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "不太符合我的節奏。"
+			tasks: [{
+				id: "489A508AF36C2B64"
+				item: "xercamusic:drum_kit"
+				title: "獲得一套鼓組"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "456B7888729F3233"
+			rewards: [{
+				id: "1E00D3E3F98F3DDA"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "左-右-左-左，右-左-右-右"
+			tasks: [{
+				id: "2DE4D6C88B42F718"
+				item: "xercamusic:drum"
+				title: "獲得一面鼓"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "557C4BC0C722CB0E"
+			rewards: [{
+				id: "49655D926B1E0F3B"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "搭便車"
+			tasks: [{
+				id: "1073AE82BFA3CC61"
+				item: "xercamusic:cymbal"
+				title: "獲得一個鈸"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "4E4365C5FE7BDED6"
+			rewards: [{
+				id: "354AE789B82B821E"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "我可不是在說你說謊！"
+			tasks: [{
+				id: "0D0F1601D68E5717"
+				item: "xercamusic:lyre"
+				title: "獲得一把里拉琴"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			id: "25FEF85C6AC81314"
+			rewards: [{
+				id: "4D54E1BA617D2F34"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "喚醒你內心的小獅子男孩。"
+			tasks: [{
+				id: "30EE8EC302AB2388"
+				item: "xercamusic:banjo"
+				title: "獲得一把班卓琴"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"221B8D09122E8DE4"
+				"25314F58263A4A40"
+				"2F48FDBD8B0CF7F5"
+				"55BBBD0F1205F0A1"
+				"3390355DEA3ACEA2"
+				"4F5D2570F65A2156"
+				"20D8C2257EE04695"
+				"456B7888729F3233"
+				"557C4BC0C722CB0E"
+				"2E186680AF5C4EE6"
+				"7304C250F2D04B1C"
+				"7DEC1D5A0426554D"
+				"3E4623760E0D0AEA"
+				"4E4365C5FE7BDED6"
+				"41AF99955491F252"
+				"2E98457469F7CEE1"
+				"38E592461B77BCEF"
+				"25FEF85C6AC81314"
+			]
+			icon: "xercamusic:god"
+			id: "3C48A74E451FBA0D"
+			rewards: [
+				{
+					id: "43B39F0D9D35CBA7"
+					item: "xercamusic:god"
+					type: "item"
+				}
+				{
+					id: "05D1B31EBD044AF2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "76E442C827C9D0C3"
+					item: {
+						Count: 1
+						id: "simplehats:headphonesblue"
+						tag: {
+							CustomModelData: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "掌握了神聖的語言，指揮天國。"
+			tasks: [{
+				id: "6B0C702892A4E30D"
+				title: "獲得上帝之音"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6AC66550640E7631"]
+			description: [
+				"&4&l警告&r：我們不對下載第三方軟件承擔責任。使用時請謹慎，確保從外部來源獲得的任何軟件的安全性和合法性。&r"
+				""
+				"要在 Minecraft 中使用&b音樂製作者模組&r播放 .midi 文件，請下載&bMidi Editor&r和&bloopMidi&r："
+				""
+				"在&bloopMidi&r中，通過點擊左下角的「&b+&r」添加新端口。在高級選項卡中，取消勾選「&b檢測反饋&r」。"
+				""
+				"在&bMidi Editor&r中，將鼠標懸停在頂部的 Midi 下拉菜單上以訪問設置。確保只選擇「&bloopMidi Port 1&r」作為 Midi 輸出。"
+				""
+				"只需將任何 .midi 文件拖入&bMidi Editor&r，然後在遊戲中打開一個樂器並點擊播放！"
+			]
+			id: "599EF2EBEF759FD5"
+			optional: true
+			rewards: [{
+				id: "060A1085A831350E"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "078ABB573890530F"
+				title: "如何演奏"
+				type: "checkmark"
+			}]
+			title: "第三方 MIDI 播放"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"無論你喜歡什麼，無論是音樂、攝影還是繪畫，&6BigChadGuys Plus&r都有適合你的內容！本章將指導你了解開始創作傑作所需的一切。"
+				""
+				"請務必在&dDiscord&r上分享你的一些作品！我們很樂意看到你的創作。"
+			]
+			icon: "ftbquests:book"
+			id: "571F3A97634D695D"
+			optional: true
+			rewards: [{
+				id: "542F45A9C1149694"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "176955D1FD28B3B3"
+				title: "接受獎勵"
+				type: "checkmark"
+			}]
+			title: "&e藝術"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: " &e音樂、繪畫和攝影"
+}

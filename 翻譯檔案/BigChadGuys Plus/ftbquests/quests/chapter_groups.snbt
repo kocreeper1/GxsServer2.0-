@@ -1,0 +1,18 @@
+{
+	chapter_groups: [
+		{ id: "5A06D7C684E08704", title: "&6BCG" }
+		{ id: "09E01112F0299463", title: "&c寶可夢" }
+		{ id: "7ABD52FA2E07893B", title: "&d配飾&f與&d新奇物品" }
+		{ id: "28F2E5AC1C6F81F3", title: "&2農業" }
+		{ id: "603B751E64357194", title: "&e藝術" }
+		{ id: "6AADDB3375EC323E", title: "&c戰鬥&f、&c礦石&f和&c工具" }
+		{ id: "4D605963C9950CD2", title: "&3釣魚" }
+		{ id: "3453313E23B8AB3B", title: "&6食物&f與&6飲料" }
+		{ id: "3B98949C49CF0198", title: "&9家居" }
+		{ id: "7DE0C6EA36844BEB", title: "&b儲存" }
+		{ id: "257DC2A7DFE41B29", title: "&a運輸" }
+		{ id: "046437929532397A", title: "&4地獄" }
+		{ id: "30353E1FF879577C", title: "&5終界" }
+		{ id: "66AEB5F2A2BD23EB", title: "&6機械動力&f（&b即將推出&f）" }
+	]
+}

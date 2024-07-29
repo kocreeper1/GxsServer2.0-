@@ -1,0 +1,158 @@
+{
+	autofocus_id: "0DD6C3E83513D0F1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "6efconomy"
+	group: "5A06D7C684E08704"
+	icon: "dailyshop:daily_shop"
+	id: "7EE4D44AD5D02348"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/emerald"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/emerald"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"在你的旅途中，你可能會發現大量的&2綠寶石&r！與原版 Minecraft 相似，&2綠寶石&r 是這個世界中的貨幣。"
+				""
+				"獲得&2綠寶石&r很簡單——你可以在箱子裡找到它們，也可以像平常一樣挖掘它們。另一個選擇是通過&b銷售箱&r，一個簡單的方塊，允許你出售魚類、農作物等物品。如果物品可以被出售，它會在提示信息中顯示。"
+				""
+				"要出售物品，只需將其堆疊放入&b銷售箱&r。一天過去後回來看看，你所有的商品都已經被賣掉了！"
+				""
+				"一旦你積累了大量的現金，前往&b每日商店&r——一個你可以建造的方塊，裡面充滿了有用和無用的可購買物品。"
+			]
+			icon: "ftbquests:book"
+			id: "0DD6C3E83513D0F1"
+			optional: true
+			rewards: [{
+				id: "074E734C147F6657"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "43528512EF96AEC9"
+				title: "經濟"
+				type: "checkmark"
+			}]
+			title: "&6經濟"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["&b每日商店&r是一個有用的方塊，可以隨機出售物品換取&2綠寶石&r。你可以找到從種子到家具、生成蛋等等的任何東西！它每20分鐘重置一次，所以保持關注！"]
+			id: "646B4EBFB625D91D"
+			rewards: [{
+				count: 2
+				id: "6110DBBBF65A25A2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "62C11D11779CC8B3"
+				item: "dailyshop:daily_shop"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&b銷售箱&r的工作原理類似於末影箱，每個玩家的庫存都是獨立的！"
+				""
+				"這也意味著漏斗不能輸送到箱子裡，所以不要忘記在睡前把它裝滿！"
+			]
+			id: "1951192D2D9C47A7"
+			rewards: [{
+				count: 2
+				id: "66EB067AC1795415"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "最多可出售九個堆疊！"
+			tasks: [{
+				id: "29A20D6E72E2082B"
+				item: "selling-bin:wooden_bin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1951192D2D9C47A7"]
+			id: "29FCF6795AC7B4FC"
+			rewards: [{
+				count: 2
+				id: "6647A55251286134"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "最多可出售十八個堆疊！"
+			tasks: [{
+				id: "3D889BBEB18BCC3A"
+				item: "selling-bin:iron_bin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29FCF6795AC7B4FC"]
+			id: "262987D13DF03E88"
+			rewards: [{
+				count: 2
+				id: "7CFB386D331BE5E9"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "最多可出售二十七個堆疊！"
+			tasks: [{
+				id: "7C429AA7D7D7E219"
+				item: "selling-bin:diamond_bin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["262987D13DF03E88"]
+			id: "155FF5EE32B8BCCC"
+			rewards: [{
+				count: 2
+				id: "5CC08202DE87FEE7"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			subtitle: "最多可出售五十四個堆疊！"
+			tasks: [{
+				id: "1282A208E1FA0D32"
+				item: "selling-bin:netherite_bin"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: " &6E&fconomy"
+}

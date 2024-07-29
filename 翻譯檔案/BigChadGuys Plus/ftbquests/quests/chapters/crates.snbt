@@ -1,0 +1,1506 @@
+{
+	autofocus_id: "0460049AC8763065"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "crates"
+	group: "4D605963C9950CD2"
+	icon: "gofish:wooden_crate"
+	id: "3F4A3BE14A491B6F"
+	images: [
+		{
+			height: 1.0d
+			image: "farmersdelight:item/salmon_roll"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:item/grilled_salmon"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&b木箱&r可以在&2主世界&r的任何生態域中釣到,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 海草"
+				"- 海帶"
+				"- 蜘蛛網"
+				"- 線"
+				"- 小麥"
+				"- 胡蘿蔔"
+				"- 甜菜根"
+				"- 鮭魚"
+				"- 鱈魚"
+				"- 木棒"
+				"- 鐵粒和金粒"
+				"- 燧石"
+				"- 煤炭"
+				""
+				"&6稀有掉落物&r:"
+				"- 鐵錠和金錠"
+				"- 鐵礦石"
+				"- 附魔之瓶"
+				"- 綠寶石"
+				"- 桶"
+				"- 魚桶"
+				"- 河豚"
+				"- 弓"
+				"- 弩"
+				"- 附魔書"
+			]
+			id: "730E9C4314C75452"
+			rewards: [{
+				id: "65F4CF19FE4AB262"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "7BBD05CFB5DE51A8"
+				item: "gofish:wooden_crate"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b鐵箱&r可以在&2主世界&r的任何生態域中釣到,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 海草"
+				"- 海帶"
+				"- 橡木原木"
+				"- 木棒"
+				"- 線"
+				"- 鐵粒和金粒及錠"
+				"- 鱈魚和鮭魚"
+				""
+				"&6稀有掉落物&r:"
+				"- 附魔書"
+				"- 河豚"
+				"- 弓"
+				"- 鐵製工具"
+				"- 紅石"
+				"- 青金石"
+			]
+			id: "5569B3E5028B501B"
+			rewards: [{
+				id: "4653B11472A56A14"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "6DD1430D7133F044"
+				item: "gofish:iron_crate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&b金箱&r可以在&2主世界&r的任何生態域中釣到,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 海草"
+				"- 線"
+				"- 蜘蛛網"
+				"- 鐵粒"
+				"- 金蘋果"
+				"- 發光的西瓜片"
+				"- 金胡蘿蔔"
+				"- 鮭魚"
+				"- 鱈魚"
+				""
+				"&6稀有掉落物&r:"
+				"- 金魚(誘餌)"
+				"- 附魔金蘋果(notch)"
+				"- 附魔金盔甲和工具"
+				"- 金馬鎧"
+				"- 紅石"
+				"- 金塊"
+				"- 金錠"
+			]
+			id: "2841E6A179B475F2"
+			rewards: [{
+				id: "6F3BCBD5A2E70B62"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "34AE5717886AEDB1"
+				item: "gofish:golden_crate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b鑽石箱&r可以在&2主世界&r的任何生態域中釣到,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 金錠和鐵錠"
+				"- 金粒和鐵粒"
+				"- 附魔之瓶"
+				"- 煤炭"
+				"- 青金石"
+				"- 紅石"
+				""
+				"&6稀有掉落物&r:"
+				"- 鮭魚"
+				"- 鱈魚"
+				"- 河豚"
+				"- 鑽石"
+				"- 綠寶石"
+				"- 馬鎧(任何等級)"
+				"- 附魔書"
+				"- 命名牌"
+				"- 金蘋果"
+				"- 附魔金蘋果 (notch)"
+			]
+			id: "4F4A6F4929879A29"
+			rewards: [{
+				id: "59BE4855C03B9C57"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "2003A19AC5C99710"
+				item: "gofish:diamond_crate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&b霜凍箱&r可以在&2主世界&r的冰凍生態域中釣到,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 霜凍釣竿"
+				"- 冰"
+				"- 浮冰"
+				"- 藍冰"
+				"- 杉木原木"
+				"- 杉木木板"
+				"- 雪"
+				"- 雪塊"
+				"- 雪球"
+				"- 冰柱魚"
+				""
+				"&6稀有掉落物&r:"
+				"- 附魔霜凍釣竿"
+				"- 鐵錠"
+				"- 煤炭"
+				"- 木炭"
+				"- 雪球魚"
+				"- 鐵礦石"
+				"- 煤炭塊"
+				"- 雕刻過的南瓜"
+			]
+			id: "51D491DD4A3034A1"
+			rewards: [{
+				id: "714CA0A24E94BE1F"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "59CD0871E4115E73"
+				item: "gofish:frosted_crate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&b黏液箱&r可以在&2主世界&r的&2沼澤&r中釣到,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 黏液球"
+				"- 黏液魚"
+				""
+				"&6稀有掉落物&r:"
+				"- 睡蓮魚"
+				"- 黏液塊"
+				"- 黏液釣竿"
+				"- 附魔黏液釣竿"
+			]
+			id: "0103FDE12579C4A5"
+			rewards: [{
+				id: "622AC3F43FC33702"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "2331EBC76DFA72F5"
+				item: "gofish:slimey_crate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&b補給箱&r可以在&2主世界&r的&2平原&r和&2森林&r生態域中釣到,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 生肉和熟肉(原版)"
+				"- 原版作物"
+				"- 火把"
+				"- 橡木魚"
+				"- 鵝卵石"
+				""
+				"&6稀有掉落物&r:"
+				"- 種子"
+				"- 作物"
+				"- 燉湯"
+				"- 鐵錠和鐵礦石"
+				"- 紅石礦石"
+				"- 煤炭和煤礦"
+				"- 接近損壞的釣竿"
+				"- 南瓜派"
+				"- 石頭"
+			]
+			id: "4FAF452B9D58AD1B"
+			rewards: [{
+				id: "319614E20A1944B1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "377B95EFB174D150"
+				item: "gofish:supply_crate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&b熾熱箱&r可以在&4地獄&r的任何生態域中釣到。需要能在熔岩中釣魚的釣竿,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 地獄岩"
+				"- 地獄石英"
+				"- 礫石"
+				"- 地獄磚"
+				"- 骨頭"
+				"- 靈魂沙"
+				"- 金錠和金粒"
+				"- 地獄疣"
+				""
+				"&6稀有掉落物&r:"
+				"- 岩漿膏"
+				"- 玄武岩鱸魚"
+				"- 骨魚"
+				"- 黑曜石比目魚"
+				"- 緋紅菌"
+				"- 岩漿鱈魚"
+				"- 烈焰桿"
+				"- 烈焰釣竿"
+				"- 骷髏釣竿"
+				"- 金塊"
+				"- 獄髓錠或碎片 (極為罕見)"
+			]
+			id: "628814DCBC533B2B"
+			rewards: [{
+				id: "355D096F881285B8"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "33CD9A3D2C26F4C7"
+				item: "gofish:fiery_crate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&b靈魂箱&r可以在&4地獄&r的&4靈魂沙峽谷&r中釣到。需要能在熔岩中釣魚的釣竿,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 靈魂土"
+				"- 靈魂沙"
+				"- 地獄疣"
+				"- 地獄磚和磚塊"
+				"- 地獄石英"
+				"- 金粒"
+				""
+				"&6稀有掉落物&r:"
+				"- 靈魂營火、靈魂燈籠和靈魂火把"
+				"- 靈魂釣竿"
+				"- 附魔靈魂釣竿"
+				"- 靈魂疾走附魔書"
+				"- 獄髓塊、錠和碎片 (塊 1.6%、錠 18.7%、碎片 28.1% 的掉落機率)"
+			]
+			id: "25A9057FC02BE202"
+			rewards: [{
+				id: "697B78EEC6C1A4EF"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "6BF6B22BE99D610D"
+				item: "gofish:soul_crate"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b鑲金黑石箱&r可以在&4地獄&r的&4玄武岩三角洲&r中釣到。需要能在熔岩中釣魚的釣竿,並包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 黑石"
+				"- 拋光黑石磚"
+				"- 金錠和金粒"
+				"- 鑲金黑石鯉"
+				"- 黑石鱒魚"
+				"- 金蘋果"
+				""
+				"&6稀有掉落物&r:"
+				"- 地獄金礦和金礦石"
+				"- 雕紋拋光黑石"
+				"- 玄武岩鱸魚"
+				"- 金塊"
+				"- 鑲金黑石"
+				"- 鞍"
+				"- 豬步音樂唱片"
+				"- 煙燻鮭魚"
+				"- 金馬鎧"
+				"- 熔岩桶"
+				"- 金魚(誘餌)"
+				"- 尖刺魚"
+				"- 附魔金蘋果"
+			]
+			id: "48A75AAB7D5AD71A"
+			rewards: [{
+				id: "627D6351F5B57F16"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "061A83D5372C34FA"
+				item: "gofish:gilded_blackstone_crate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&b星辰箱&r可以在滿月時在&2主世界&r的任何生態域中釣到。它們包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 玻璃"
+				"- 月光魚"
+				"- 星光鮭魚"
+				"- 鐵粒和鐵錠"
+				""
+				"&6稀有掉落物&r:"
+				"- 銀河海星"
+				"- 星雲劍魚"
+				"- 鑽石"
+				"- 天體釣竿"
+				"- 附魔書"
+			]
+			id: "3E484C4FC69E11CD"
+			rewards: [{
+				id: "5B5B7B0E67290FD6"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "7AC9A61F535DB4BC"
+				item: "gofish:astral_crate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b終界箱&r可以在&5終界&r的任何生態域中釣到。它們包含以下物品:"
+				""
+				"&2常見掉落物&r:"
+				"- 終界魚"
+				"- 終界石"
+				"- 黑曜石"
+				"- 歌萊鱈魚"
+				"- 傳送門河豚"
+				""
+				"&6稀有掉落物&r:"
+				"- 終界之眼"
+				"- 終界珍珠"
+				"- 終界鰻"
+				"- 矩陣魚"
+				"- 哭泣的黑曜石"
+				"- 釣魚之眼"
+				"- 矩陣釣竿"
+				"- 界伏盒殼"
+				"- 龍魚"
+				"- 終界水晶"
+				"- 終極漂浮者"
+			]
+			id: "16FF0DC0781AA5C4"
+			rewards: [{
+				id: "675285419E14AD52"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "點擊以瞭解更多!"
+			tasks: [{
+				id: "049896D56BE9E1FF"
+				item: "gofish:end_crate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "7599A08A47638F2D"
+			rewards: [{
+				count: 7
+				id: "2812487C494F46C1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&5終界&r的任何地方釣到。"
+			tasks: [{
+				id: "660E3B885631854D"
+				item: "gofish:ender_eel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "335523405D95D4AF"
+			rewards: [{
+				count: 3
+				id: "0855EF3B416017EA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&2主世界&r的冰凍生態群系中釣到。"
+			tasks: [{
+				id: "5A8011D6CF29B8C6"
+				item: "gofish:icicle_fish"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "621E03765F7FCA0A"
+			rewards: [{
+				count: 3
+				id: "3F65A4C3095DE447"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&2主世界&r的&2沼澤&r中釣到。"
+			tasks: [{
+				id: "20BB171A5118E252"
+				item: "gofish:lilyfish"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "323E1990203C74C2"
+			rewards: [{
+				count: 7
+				id: "1A002ED3B0469832"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&5終界&r的任何地方釣到。"
+			tasks: [{
+				id: "1E512B65E432239B"
+				item: "gofish:matrix_fish"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "282D21302F04CD29"
+			rewards: [{
+				count: 3
+				id: "69F3E111951CE72A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&2主世界&r的任何地方釣到。"
+			tasks: [{
+				id: "31A5BACF656B9CF1"
+				item: "gofish:seaweed_eel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "6A884E8ED6D17A42"
+			rewards: [{
+				count: 3
+				id: "1726859D9CBF2F12"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&2主世界&r的&2沼澤&r中釣到。"
+			tasks: [{
+				id: "6646CD4D8C1D1E11"
+				item: "gofish:slimefish"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "7725934752CF6D2D"
+			rewards: [{
+				count: 3
+				id: "73547FB90B974038"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&2主世界&r的冰凍生態群系中釣到。"
+			tasks: [{
+				id: "1CD4CFD39823AF50"
+				item: "gofish:snowball_fish"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "7746EAEC46FA0391"
+			rewards: [{
+				count: 3
+				id: "0DF45C1CA8E20DDA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&2主世界&r的&2平頂山&r中釣到。"
+			tasks: [{
+				id: "22AAF7C56D4EC058"
+				item: "gofish:terrafish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "7F98F68E069B17C8"
+			rewards: [{
+				count: 3
+				id: "2C2368470E3AB6F3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&2主世界&r的&2平原&r或&2森林&r中釣到。"
+			tasks: [{
+				id: "1F63F1FF86AB2C67"
+				item: "gofish:carrot_carp"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "43F691D0A8FE2A4E"
+			rewards: [{
+				count: 3
+				id: "4970B033619E3963"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&2主世界&r的&2平原&r或&2森林&r中釣到。"
+			tasks: [{
+				id: "338526AA2D868C01"
+				item: "gofish:oakfish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [""]
+			id: "59E6FF98506E2670"
+			rewards: [{
+				count: 6
+				id: "752F3E15D64DEEE8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&4地獄&r的任何地方釣到。需要一根能夠承受熔岩的釣竿。"
+			tasks: [{
+				id: "14B763B7EA15C51D"
+				item: "gofish:spikerfish"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "26B5C4059D23F063"
+			rewards: [{
+				count: 6
+				id: "013B55E5DBFDA622"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&4地獄&r的&4玄武岩三角洲&r中釣到。需要一根能夠承受熔岩的釣竿。"
+			tasks: [{
+				id: "3FE824505DB0D716"
+				item: "gofish:blackstone_trout"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "3A79649B13DE8F8D"
+			rewards: [{
+				count: 6
+				id: "22A3C04637AC1C8D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&4地獄&r的任何地方釣到。需要一根能夠承受熔岩的釣竿。"
+			tasks: [{
+				id: "795D583A298DFEAF"
+				item: "gofish:bonefish"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "4D4D004CFD92E40D"
+			rewards: [{
+				count: 6
+				id: "6CDFFE350412E7D7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&4地獄&r的&4靈魂沙谷&r中釣到。需要一根能夠承受熔岩的釣竿。"
+			tasks: [{
+				id: "2D419BDBD5FBB42F"
+				item: "gofish:soul_salmon"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "524CA0C8649A89D2"
+			rewards: [{
+				count: 6
+				id: "00D8EA334AD2B077"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&4地獄&r的任何地方釣到。需要一根能夠承受熔岩的釣竿。"
+			tasks: [{
+				id: "01408D84347D426D"
+				item: "gofish:smokey_salmon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "7A397672AB2B9B91"
+			rewards: [{
+				count: 6
+				id: "6750DF0B4DB952E6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在&4地獄&r的&4玄武岩三角洲&r中釣到。需要一根能夠承受熔岩的釣竿。"
+			tasks: [{
+				id: "00E6E2939BD0FB0A"
+				item: "gofish:gilded_blackstone_carp"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "35D00D0B1080EB7A"
+			rewards: [{
+				count: 6
+				id: "565D4371D9566740"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&4地獄&r的任何地方釣到。需要一根能夠承受熔岩的釣竿。"
+			tasks: [{
+				id: "2520062769FF0A6D"
+				item: "gofish:magma_cod"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "4FE73A5DAFF0EEA9"
+			rewards: [{
+				count: 6
+				id: "367CF304B639BCCC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&4地獄&r的任何地方釣到。需要一根能夠承受熔岩的釣竿。"
+			tasks: [{
+				id: "32A6E9A90B8C5DEF"
+				item: "gofish:basalt_bass"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "66C51F8D41E98D53"
+			rewards: [{
+				count: 6
+				id: "763503A18C112D94"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&4地獄&r的任何地方釣到。需要一根能夠承受熔岩的釣竿。"
+			tasks: [{
+				id: "78829F8E8AF72F7E"
+				item: "gofish:obsidian_halibut"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "3C9819BB10CE8979"
+			rewards: [{
+				count: 7
+				id: "3DEE0F4C17B8A40B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&5終界&r的任何地方釣到。"
+			tasks: [{
+				id: "0833BB447D7303F0"
+				item: "gofish:endfish"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "3A0D053015B186AF"
+			rewards: [{
+				count: 7
+				id: "7CC7C3196DF6D8BD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&5終界&r的任何地方釣到。"
+			tasks: [{
+				id: "365D70D4970ADE93"
+				item: "gofish:chorus_cod"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "4213842525562B8A"
+			rewards: [{
+				count: 7
+				id: "14F3BD0C0FA26AE6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&5終界&r的任何地方釣到。"
+			tasks: [{
+				id: "43FCFB5089AF84B2"
+				item: "gofish:dragonfish"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "1DB08552A309259C"
+			rewards: [{
+				count: 7
+				id: "78B86FE26A4601E3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&5終界&r的任何地方釣到。"
+			tasks: [{
+				id: "3A477208AE155E21"
+				item: "gofish:omega_floater"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "793872C2B7823588"
+			rewards: [{
+				count: 7
+				id: "71D3CC4145B58B24"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "可以在&5終界&r的任何地方釣到。"
+			tasks: [{
+				id: "5FCFA6CD320C801F"
+				item: "gofish:portal_puffer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "5454B3DB69C294F3"
+			rewards: [{
+				count: 5
+				id: "4BAAB715894EFB21"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在滿月時於&2主世界&r的任何地方釣到。"
+			tasks: [{
+				id: "15CAF9B97257615D"
+				item: "gofish:lunarfish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "4FDFBA255615E64A"
+			rewards: [{
+				count: 5
+				id: "4369C9C560FC5F32"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在滿月時於&2主世界&r的任何地方釣到。"
+			tasks: [{
+				id: "0562BD3F8C306C0C"
+				item: "gofish:galaxy_starfish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			description: [""]
+			id: "52CA5E11E1AF180C"
+			rewards: [{
+				count: 5
+				id: "7C84E4FE0BBB9905"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在滿月時於&2主世界&r的任何地方釣到。"
+			tasks: [{
+				id: "16D59CB2136FF4CA"
+				item: "gofish:starry_salmon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "3FE88FEA02597BF5"
+			rewards: [{
+				count: 5
+				id: "1D278964A01B5128"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在滿月時於&2主世界&r的任何地方釣到。"
+			tasks: [{
+				id: "37F6D866160F93CC"
+				item: "gofish:nebula_swordfish"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "3D7FCCAF10820D18"
+			rewards: [{
+				count: 5
+				id: "7C56552AA2939522"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在下雨時於&2主世界&r的任何地方釣到。"
+			tasks: [{
+				id: "601E2F660D0B95BF"
+				item: "gofish:rainy_bass"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "14752CA5C234E3FD"
+			rewards: [{
+				count: 5
+				id: "5FDA4BD0190D18EF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在你位於雲層之上時於&2主世界&r的任何地方釣到。"
+			tasks: [{
+				id: "40C524B3554C2838"
+				item: "gofish:cloudy_crab"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "164B3594B82227AF"
+			rewards: [{
+				count: 5
+				id: "7850B65E668E0F85"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在雷雨時於&2主世界&r的任何地方釣到。"
+			tasks: [{
+				id: "7078699303B60718"
+				item: "gofish:thundering_bass"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "32C28EA7BFACD4C4"
+			rewards: [{
+				count: 3
+				id: "4D0DFA0834FD8A6C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "只能在下雪時於&2主世界&r的任何地方釣到。"
+			tasks: [{
+				id: "0C8A3C32B680DE8D"
+				item: "gofish:blizzard_bass"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"這個魚餌無法被釣起，只能在&b金色&r和&b鍍金黑石&r箱子中罕見地找到。"
+				""
+				"此外，它不是魚；它是一個魚餌。"
+			]
+			id: "3E560258E06D47DE"
+			rewards: [
+				{
+					id: "6D67705B30C173B0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2B0561F5C4A001C7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "32DD26FE88A620C6"
+				item: "gofish:golden_fish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&b釣魚樂&r是一個受到&b星露谷物語&r和&b泰拉瑞亞&r等遊戲啟發的釣魚增強模組。它旨在通過引入新的、令人興奮的戰利品和獨特的魚類來創造一個有價值的釣魚體驗。"
+				""
+				"要充分享受這個模組的好處，你需要在各種類型的生態群系和維度中釣魚。"
+			]
+			icon: "ftbquests:book"
+			id: "0460049AC8763065"
+			optional: true
+			rewards: [{
+				id: "29CCD650412EBF90"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "2C62D99BD2B2130C"
+				title: "接受獎勵"
+				type: "checkmark"
+			}]
+			title: "&3箱子&f、&3奇異魚&f和&3釣竿"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b烈焰桿&r是兩種可製作的釣竿之一。它有一個特殊能力，可以自動熔煉（烹飪）你的捕獲物（如果可能的話），並擁有125的耐久度。"
+				""
+				"此外，它可以在熔岩中釣魚。"
+			]
+			id: "50EBFE4F41A442AD"
+			rewards: [
+				{
+					id: "0B95219EF959E83A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2D545C962089B858"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "690555E84D861622"
+				item: {
+					Count: 1
+					id: "gofish:blaze_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&b骷髏桿&r是無法製作的，只能從&b火焰箱&r中獲得。"
+				""
+				"它沒有已知的特殊效果或獎勵，耐久度為75。"
+				""
+				"此外，它不能在熔岩中釣魚。"
+			]
+			id: "30FEA5231B047AFE"
+			rewards: [
+				{
+					id: "5CB1821F4D50F011"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "50BD505FE2B37822"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "60CD22D0AB8BA6E2"
+				item: {
+					Count: 1
+					id: "gofish:skeletal_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b鑽石強化桿&r是兩種可製作的釣竿之一。它有一個特殊效果，可以增加你在所有維度中釣到箱子的機會，並擁有300的耐久度。"
+				""
+				"此外，它可以在熔岩中釣魚。"
+			]
+			id: "068A7068B23F96BD"
+			rewards: [
+				{
+					id: "05386F360DFDF84C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "3792B67BD9BE55E7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "45068B1E51F0B153"
+				item: {
+					Count: 1
+					id: "gofish:diamond_reinforced_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&b釣魚之眼&r是無法製作的釣竿，只能通過&b終界箱&r獲得。"
+				""
+				"目前不知道它是否有特殊能力。它的耐久度為250。"
+				""
+				"此外，它不能在熔岩中釣魚。"
+			]
+			id: "5CB89C18F92C5A4F"
+			rewards: [
+				{
+					id: "043B4D07C4F631B0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "3FD451DD29F2162D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "3530F69B216C87D5"
+				item: {
+					Count: 1
+					id: "gofish:ender_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&b冰霜桿&r是無法製作的，只能通過&b冰霜箱&r獲得。"
+				""
+				"目前不知道它是否有特殊能力，耐久度為150。"
+				""
+				"此外，它不能在熔岩中釣魚。"
+			]
+			id: "46C3E19658D0965B"
+			rewards: [
+				{
+					id: "1FB0DE38609DD317"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "5B87547AA35F88E3"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "11B21B4EBAA545CD"
+				item: {
+					Count: 1
+					id: "gofish:frosted_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&b史萊姆桿&r是無法製作的，只能通過&b黏液箱&r獲得。"
+				""
+				"它的特殊能力是在你捕獲東西後短時間內增加你的跳躍高度，耐久度為150。"
+				""
+				"此外，它不能在熔岩中釣魚。"
+			]
+			id: "442EA6340EA704A8"
+			rewards: [
+				{
+					id: "4C68F4AE5DE8FE67"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "6D7FE0BA2C9C01CD"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "26CDE610F2BEA9ED"
+				item: {
+					Count: 1
+					id: "gofish:slime_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b靈魂之桿&r是無法製作的，只能從&b靈魂箱&r中獲得。"
+				""
+				"它有特殊效果，可以在捕獲任何東西時增加+5的經驗值收益，耐久度為250。"
+				""
+				"此外，它可以在熔岩中釣魚。"
+			]
+			id: "4BE1C5F8E8F09016"
+			rewards: [
+				{
+					id: "477740F63A3B8AF6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2CC57ED29BB9B854"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "6C1371265186720D"
+				item: {
+					Count: 1
+					id: "gofish:soul_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b矩陣桿&r是無法製作的，只能從&b終界箱&r中獲得。"
+				""
+				"目前不知道它是否有特殊效果或獎勵，耐久度為200。"
+				""
+				"此外，它不能在熔岩中釣魚。"
+			]
+			id: "2E24C61ADD3BD532"
+			rewards: [
+				{
+					id: "01CCC13BE7183D79"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "7D38811CD352AC28"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "35AFBED0C315DFBF"
+				item: {
+					Count: 1
+					id: "gofish:matrix_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&b天界之桿&r是無法製作的，只能從&b星體箱&r中獲得。"
+				""
+				"它的特殊能力是在夜晚時給予你+1幸運，耐久度為150。"
+				""
+				"此外，它不能在熔岩中釣魚。"
+			]
+			id: "10BCC53BB12A59B1"
+			rewards: [
+				{
+					id: "729EDD3986BAD0CB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "0BF9D4E5C93D000B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "777FEC40BB5B7D27"
+				item: {
+					Count: 1
+					id: "gofish:celestial_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&b簡易魚餌&r是三種魚餌之一。"
+				""
+				"它可以被製作，並在玩家的物品欄中生效，給所有釣竿+1魚餌效果。它可以與其他兩種魚餌一起使用。"
+			]
+			id: "3E49D8F42D577D5E"
+			rewards: [
+				{
+					id: "795B0E57E84F6A93"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "226177AD8025CBA6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "2FE94A1D8ED01EFF"
+				item: "gofish:simple_lure"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&b靈魂魚餌&r是三種魚餌之一。"
+				""
+				"它可以被製作，並在玩家的物品欄中時，會在&4靈魂沙谷&r釣魚時給予+1幸運。它也可以與其他兩種魚餌一起使用。"
+			]
+			id: "393B96A082C31AAF"
+			rewards: [
+				{
+					id: "2B631FAAEEFB0DA2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2602334924855AB0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "點擊以了解更多！"
+			tasks: [{
+				id: "4F4197C8590F186B"
+				item: "gofish:soul_lure"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: " &3箱&f子、奇異魚和釣竿"
+}

@@ -1,0 +1,370 @@
+{
+	autofocus_id: "7F9AC8931E4A610F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fwelcome_to_bigchadguys_plus"
+	group: "5A06D7C684E08704"
+	icon: "ftbquests:book"
+	id: "0E4B8320068B7CE1"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/axolotl_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/bee_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/white_tulip"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pink_tulip"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"歡迎來到&6【GxsServer2.0】第五季｜BCG"
+				""
+				"你正拿著你的&9任務書&r,這是一個有用的工具,可以追蹤你在旅程中收集的東西。&9日記&r會不斷更新,所以別忘了定期查看你的進度!"
+				""
+				"如果你在旅途中迷失了方向,看看你的&9日記&r並追求你感興趣的東西!沒有「正確」的遊玩方式。做讓你的心快樂的事情。"
+				""
+				"&b你的下一步應該是查看本章的其他條目;有些資訊可能對你有巨大幫助!&r &9但你不一定非得這麼做,我只是建議而已。這可能會有幫助,但最終還是由你決定。我不是想表現得很專制;我只是認為這可能對你最有利。這只是我個人的意見;我確實認為最好看看它們。&r"
+			]
+			icon: "bakery:strawberry_cake"
+			id: "7F9AC8931E4A610F"
+			rewards: [
+				{
+					id: "7BC1BB66B0EC3A33"
+					item: "bakery:strawberry_cake_slice"
+					type: "item"
+				}
+				{
+					id: "521367BFA49B70FE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "點擊查看更多!"
+			tasks: [{
+				id: "6A96F431D77E1ADA"
+				title: "&6【GxsServer2.0】第五季｜BCG"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b連鎖挖礦&r允許你以多種模式同時破壞多個方塊。如果你想挖掘一整條礦脈,就使用&b連鎖挖礦&r!"
+				""
+				"使用&b連鎖挖礦&r非常簡單,只需按下其快捷鍵(預設:'&b~&r')並破壞一個方塊即可!"
+				""
+				"按住&b連鎖挖礦&r鍵,按'&bShift&r'並滾動滑鼠滾輪,可以改變&b連鎖挖礦&r破壞方塊的模式。"
+				""
+				"&4小心&r!&b連鎖挖礦&r可能會快速消耗你的食物或損壞你的工具!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "00ABFB0F22459983"
+			optional: true
+			rewards: [{
+				id: "422DEE461C4B6679"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "點擊了解更多!"
+			tasks: [{
+				id: "007F01507E98D70F"
+				title: "連鎖挖礦"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&bEMI&r是一個合成表瀏覽器,讓你可以查看每一個物品及其合成配方。"
+				""
+				"&bEMI&r提供的一個關鍵功能是能夠按特定模組搜索和過濾。例如,在搜索欄中輸入「&b@Automobility&r」將讓你看到所有與Automobility相關的物品:它的框架、車輪、附件等。在探索模組時,這是一個非常有用的工具。"
+				""
+				"如果你不確定某個物品來自哪個模組,按'&bF3 + H&r'可以讓你看到每個物品的標識符!"
+				""
+				"隨意使用它,根據你的喜好自定義,如果你有任何問題,在&dDiscord&r上問我們!"
+			]
+			icon: "minecraft:paper"
+			id: "2842A1F4485DA210"
+			optional: true
+			rewards: [{
+				id: "4551EF210FC8AE78"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "點擊了解更多!"
+			tasks: [{
+				id: "1F433CC6404E1101"
+				title: "EMI"
+				type: "checkmark"
+			}]
+			title: "EMI"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"無論你有問題要問、需要報告錯誤,還是想分享你的建築,&6大查德男孩&r的&dDiscord&r都是做這些事的地方!"
+				""
+				"加入我們: &ddiscord.gg/bigchadguys&r"
+			]
+			icon: "ftbquests:book"
+			id: "7F347C5E52359E01"
+			optional: true
+			rewards: [{
+				id: "28174499B74F4D44"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "點擊了解更多!"
+			tasks: [{
+				id: "60ECBF11019AFA6B"
+				title: "需要幫助?"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&b使用&lBisectHosting&r主機 (付費)&r"
+				"提供優質和經濟型主機,全天候支援。使用代碼&6BigChadGuys&r可獲得首月25%折扣。"
+				""
+				"&c使用&lOracle Cloud&r主機 (免費)&r"
+				"考慮Oracle Cloud作為免費且專用的替代選擇。但請注意,Oracle最近一直在隨機關閉帳戶,所以要謹慎使用。"
+				""
+				"&2使用&le4mc&r主機 (免費)&r"
+				"自動包含在BCG整合包中。進入單人世界,打開遊戲菜單,選擇「&b開始合作遊戲&r」即可進入多人遊戲。"
+			]
+			icon: "minecraft:villager_spawn_egg"
+			id: "384105BFD8CAD66D"
+			optional: true
+			rewards: [{
+				id: "0B69C490BE755555"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "點擊了解更多!"
+			tasks: [{
+				id: "0786E128134803D9"
+				title: "多人遊戲選項"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"除了盔甲、飾品、附魔等,在&6大查德男孩 Plus&r中還有另一種提升你的屬性的方法!一些收集里程碑提供永久性的屬性加成。以下是每個收集里程碑提供的加成:"
+				""
+				"{ \"text\": \"生物收集 - 攻擊傷害\", \"underlined\": \"true\", \"color\": \"dark_red\",  \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3731A9890D5811CC\" } }"
+				""
+				"{ \"text\": \"原木收集 - 最大生命值\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"76AB52FE499A836F\" } }"
+				""
+				"{ \"text\": \"探索 - 移動速度\", \"underlined\": \"true\", \"color\": \"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C16AD35A6E01EE7\" } }"
+				""
+				"{ \"text\": \"礦石收集 - 盔甲韌性\", \"underlined\": \"true\", \"color\": \"gold\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46EDB9DC0F5AC44C\" } }"
+				""
+				"{ \"text\": \"魚類收集 - 幸運\", \"underlined\": \"true\", \"color\": \"green\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"673ABD4569E4C55E\" } }"
+				""
+				"{ \"text\": \"野生動物收集 - 攻擊速度\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55D01CEB1D098B67\" } }"
+				""
+				"{ \"text\": \"作物收集 - 護甲\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"606B8E7912784AC4\" } }"
+				""
+				"一旦你完成了一個收集,你就可以開始推進&6精通&r等級,這是一種無限重複的方法,可以獲得永久性屬性加成。"
+				""
+				"&9數字越來越大。&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08935F23101FE389"
+			optional: true
+			rewards: [{
+				id: "1F4C14CCE37B58F1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "點擊了解更多!"
+			tasks: [{
+				id: "0D05C6FBFED4D3F1"
+				title: "技能"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"致我的Discord工作人員:&6Kurisu&r、&dBlacknewt&r、&dHarold&r、&dHolland&r、&dSinnamoth&r和&cLion&r,"
+				""
+				"非常感謝你們所做的一切!你們在維護一個有幫助和安全的社區方面的協助讓我的生活變得更輕鬆。沒有你們我無法做到這一切。"
+				""
+				"致&e模組開發者們&r:"
+				""
+				"衷心感謝模組社區的支柱,你們的創作幫助擴展了這個史上最偉大的遊戲。"
+				""
+				"致&9Craft Down Under&r:"
+				""
+				"感謝你們從一開始就陪伴在我身邊!Sauramel和Olivia,我們的合作意義重大,我非常感激你們當初主動聯繫了我。這是我進入模組Minecraft社區的絕佳開端!"
+				""
+				"致我的&bLuna Pixel&r夥伴們:"
+				""
+				"在我作為整合包開發者的旅程中,你們的指導和善意是無價的。我深深感激我們的友誼。"
+				""
+				"致&aV4lk&r:"
+				""
+				"感謝你對BCG藝術的貢獻!你的作品在為成千上萬的人帶來歡樂方面發揮了重要作用!"
+				""
+				"致&5KaptainWutax&r:"
+				""
+				"你在模組開發方面的專業知識將BCG提升到了一個全新的水平,我衷心感謝你幫助建立的一切。"
+				""
+				"致&9Ardy&r、&9Baguette&r和&9Tom&r:"
+				""
+				"感謝你們在任務方面的幫助!你們知道我絕對喜歡做這些任務,哈哈。"
+				""
+				"致&cbndf88&r:"
+				""
+				"謝謝你的音樂,笨蛋。"
+				""
+				"致&2George Cooper&r: Mary的摯愛丈夫,Sheldon、George Jr.和Missy的慈愛父親,以及一位激勵許多人的熱情足球教練。他因熱愛烤牛胸肉和對家人堅定不移的支持而聞名。他留下的愛、奉獻和力量的遺產將永遠被銘記。"
+				""
+				"最後,感謝&6你&r的遊玩!你的支持對我來說意味著整個世界,我很幸運能夠全職做這件事。說真的,我不太擅長表達謝意,但由衷地,從我內心深處,感謝你。"
+			]
+			icon: "bcg_smp:joe_coin"
+			id: "02AF54D55FF5C84F"
+			optional: true
+			rewards: [{
+				command: "/tellraw @s [\"\",{\"text\":\"<bcgjoe> 感謝你遊玩\",\"color\":\"white\"},{\"text\":\" 大查德男孩 Plus\",\"color\":\"gold\"},{\"text\":\"!\",\"color\":\"white\"}]"
+				icon: "bcg_smp:joe_coin"
+				id: "3CB06A8ECA68E737"
+				title: "謝謝你!"
+				type: "command"
+			}]
+			subtitle: "點擊查看所有參與者!"
+			tasks: [{
+				id: "7A69F1CD5D900539"
+				title: "&d製作人員"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&b飲食日誌&r是一本有用的書,記錄了你吃過的每種食物。你可以將&b書與羽毛筆&r和&b蘋果&r組合製作,或者接受這個任務來獲得它!這很簡單。"
+				""
+				"你可能會想,知道我吃過什麼食物為什麼重要?嗯,每種你吃過的獨特食物都會增加你的&c最大生命值&r!可能需要吃一些東西後你才會感覺到不同,但請放心,你會變得更強壯!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					author: "Me"
+					display: {
+						Name: "{\"translate\":\"飲食日誌\",\"bold\":true}"
+					}
+					"spiceoffabric:food_journal": 1b
+					title: ""
+				}
+			}
+			id: "3EAEC39431D5A055"
+			optional: true
+			rewards: [{
+				id: "64F52624F1F8634A"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Me"
+						display: {
+							Name: "{\"translate\":\"飲食日誌\",\"bold\":true}"
+						}
+						"spiceoffabric:food_journal": 1b
+						title: ""
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "點擊了解更多!"
+			tasks: [{
+				id: "5E4CA664778DB07D"
+				title: "飲食日誌"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&6BCG 允許你認領區塊!這意味著你可以保護你的基地免受其他玩家、苦力怕爆炸的影響,甚至可以保持區塊載入。"
+				""
+				"要認領一個區塊,打開你的物品欄並點擊左上角的&bFTB Chunks: 認領管理器&r。然後只需左鍵點擊你想要認領的區塊。你獲得的認領數量取決於服務器設置。"
+				""
+				"要強制載入一個區塊,在認領後按住Shift鍵點擊它。你會看到一個視覺變化,表示該區塊現在被強制載入了。"
+				""
+				"要取消認領區塊,只需右鍵點擊即可!"
+			]
+			icon: "minecraft:pillager_spawn_egg"
+			id: "06080C64F7F740C7"
+			optional: true
+			rewards: [{
+				id: "62C129A3CDCE40FF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "點擊了解更多!"
+			tasks: [{
+				id: "083AED7ED47A0E8C"
+				title: "多人遊戲提示 (認領)"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	title: " &6介紹"
+}

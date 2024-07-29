@@ -1,0 +1,153 @@
+{
+	autofocus_id: "1687F9BAC76161E5"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "compact_storage"
+	group: "7DE0C6EA36844BEB"
+	icon: "compact_storage:compact_chest_white"
+	id: "35268EFCB6733133"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bCompact Storage&r 引入了各種顏色的桶和箱子，您可以升級它們以容納最多288個槽位。它還包括物品鼓，可容納最多64堆同類物品。"
+				""
+				"&9提示&r: 如果您獲得過多的單一升級，可以通過製作進行轉換！"
+			]
+			icon: "ftbquests:book"
+			id: "1687F9BAC76161E5"
+			optional: true
+			rewards: [{
+				id: "1F402AA65B967332"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				id: "6612328150D29531"
+				title: "接受獎勵"
+				type: "checkmark"
+			}]
+			title: "&bCompact Storage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"要應用升級，右鍵點擊世界中的箱子或桶。每個箱子和桶最多可以應用6次列大小增加升級。"
+				""
+				"&9提示&r: 如果您獲得過多的單一升級，可以通過製作進行轉換！"
+			]
+			id: "51CBCF44B6C4178C"
+			rewards: [{
+				id: "166BB9DC1DB0633E"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				count: 6L
+				id: "2C5B12FFBF3E9C8F"
+				item: "compact_storage:upgrade_column"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"要應用升級，右鍵點擊世界中的箱子或桶。每個箱子和桶最多可以應用15次行大小增加升級。"
+				""
+				"&9提示&r: 如果您獲得過多的單一升級，可以通過製作進行轉換！"
+			]
+			id: "16E1591223255F3C"
+			rewards: [{
+				id: "67599B4FC89D2F04"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			subtitle: "點擊了解更多！"
+			tasks: [{
+				count: 15L
+				id: "41F0EAA99EE5254C"
+				item: "compact_storage:upgrade_row"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "3EB703E36E37B83B"
+			rewards: [{
+				count: 3
+				id: "57A3050B18202797"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EAE82797BEA42BA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "compact_storage:compact_chest"
+					}
+				}
+				title: "任何Compact Chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "59E828622190EE37"
+			rewards: [{
+				count: 3
+				id: "5B2C94030D58C79F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68F098D27CE0A705"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "compact_storage:compact_barrel"
+					}
+				}
+				title: "任何Compact Barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "79134D52AD2761D4"
+			rewards: [{
+				count: 3
+				id: "3CF982C2C17F5BA3"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F4943ADD5D8A832"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "compact_storage:drum"
+					}
+				}
+				title: "任何Compact Drum"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: " &bC&fompact Storage"
+}

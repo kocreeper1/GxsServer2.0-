@@ -1,0 +1,1908 @@
+{
+	autofocus_id: "46EDB9DC0F5AC44C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "ore_collection"
+	group: "6AADDB3375EC323E"
+	icon: "minecraft:iron_ingot"
+	id: "2C76C3BE51052F55"
+	images: [
+		{
+			height: 1.0d
+			image: "mythicmetals:item/metallurgium_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "mythicmetals:item/celestium_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"No matter how you play, you'll eventually require ore. While there are numerous ways to obtain it, sometimes you just need to get your hands dirty."
+				""
+				"Being underground can be scary at first, but you get used to it. Progressing through the &6Ore Collection Milestones&r will grant you permanent &6Armor Toughness&r!"
+			]
+			icon: "ftbquests:book"
+			id: "3ECE3510A8CFFB4A"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "461189A74D9F7329"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "10A76410585A2FD1"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Ore Collection"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "45782776483FC9CF"
+			rewards: [{
+				id: "3A3D250C7F6C7CAD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5787029277E061F5"
+				item: "minecraft:coal"
+				title: "Obtain 64x Coal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "20DE4DBC8EF800A5"
+			rewards: [{
+				id: "398BAF619CB84179"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2124B94C9E623194"
+				item: "minecraft:raw_copper"
+				title: "Obtain 64x Raw Copper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "55CBE86D529B375B"
+			rewards: [{
+				id: "794310226ED03A8E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4099C45BAAA3DB6A"
+				item: "minecraft:raw_iron"
+				title: "Obtain 64x Raw Iron"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "3F2895A9F90BCF2D"
+			rewards: [{
+				id: "02D8021B85643065"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "66612CD2C5F5CEAF"
+				item: "minecraft:raw_gold"
+				title: "Obtain 64x Raw Gold"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "5379F1F7C6540AD8"
+			rewards: [{
+				id: "5368227E584DF5F6"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "597F2AF5A5635C95"
+				item: "minecraft:emerald"
+				title: "Obtain 32x Emeralds"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "3B4EA5F2AE63E134"
+			rewards: [{
+				id: "57076554C19E7AFA"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2AEA189242181413"
+				item: "minecraft:diamond"
+				title: "Obtain 16x Diamonds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["416A2B30A9072E6C"]
+			id: "0AAF0F480E052458"
+			rewards: [{
+				id: "745D4B086214F519"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "34DF59010BB815A5"
+				item: "minecraft:coal"
+				title: "Obtain 128x Coal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0AC224DFFE3ECE63"
+				"547DAEF987500644"
+				"416A2B30A9072E6C"
+				"111B10B3DEE57F25"
+				"22345D21E84F6297"
+				"5242944249D5136A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5732449970E8E3E8"
+			rewards: [
+				{
+					id: "6135D85E6C13CC0A"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "fortune"
+								lvl: 2
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.armor_toughness"
+					icon: "ftbquests:book"
+					id: "35C8F950364033B5"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&6+2 Armor Toughness"
+					type: "bcgutil:attribute"
+					value: 2.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "7E79009665FD9F18"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Ore Collection Milestone I"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"130D540EB0E0FA05"
+				"1945D65FE4252087"
+				"460D46466454FB56"
+				"6ED64B47A81CECA4"
+				"2B02649F9D2DE68B"
+				"1F85FCA1E9D7EC0C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31D9E5BBF0CA9870"
+			rewards: [
+				{
+					id: "14D2B64828D53955"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "fortune"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.armor_toughness"
+					icon: "ftbquests:book"
+					id: "4D79756599F1E2E6"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&6+3 Armor Toughness"
+					type: "bcgutil:attribute"
+					value: 3.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "12E45EDDDF7CB993"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Ore Collection Milestone II"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"306495E0F2514365"
+				"0A6D57A1AEB97A74"
+				"41CFE324EF44E896"
+				"558FD3B7276D1F1F"
+				"7A35F1CBF73434F1"
+				"1C38D1959A28AAC9"
+			]
+			hide_dependency_lines: true
+			icon: "things:hardening_catalyst"
+			id: "0AB76B0047D23271"
+			rewards: [
+				{
+					id: "1A52196607161B83"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.armor_toughness"
+					icon: "ftbquests:book"
+					id: "7A012CEC94FF1A80"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&6+4 Armor Toughness"
+					type: "bcgutil:attribute"
+					value: 4.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "6EFC01314CAF45E2"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Ore Collection Milestone III"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["22345D21E84F6297"]
+			id: "3CFEC77AF045E7F6"
+			rewards: [{
+				id: "108EE416E5BA7560"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "01B1A8A5549F470C"
+				item: "minecraft:raw_copper"
+				title: "Obtain 128x Raw Copper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AC224DFFE3ECE63"]
+			id: "14A28525006CE386"
+			rewards: [{
+				id: "4DFF1D1491F23B79"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "550C04910217F3C5"
+				item: "minecraft:raw_iron"
+				title: "Obtain 128x Raw Iron"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["111B10B3DEE57F25"]
+			id: "2C5A196726DBBDE1"
+			rewards: [{
+				id: "07DF3FBE45B100F0"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "30B1CA1376760ABF"
+				item: "minecraft:raw_gold"
+				title: "Obtain 128x Raw Gold"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5242944249D5136A"]
+			id: "0889D72C6BFB0B31"
+			rewards: [{
+				id: "73D7E51FCD0BD637"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "577F2ECCBBD013C8"
+				item: "minecraft:emerald"
+				title: "Obtain 128x Emeralds"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["547DAEF987500644"]
+			id: "09105B58283AFD0B"
+			rewards: [{
+				id: "5ECD674512066649"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0A0857F113222FBD"
+				item: "minecraft:diamond"
+				title: "Obtain 64x Diamonds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6ED64B47A81CECA4"]
+			id: "50D7FBC739B6BFD1"
+			rewards: [{
+				count: 3
+				id: "29D8860DFD7627AA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "164F4F7D3550DA00"
+				item: "minecraft:coal"
+				title: "Obtain 256x Coal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1945D65FE4252087"]
+			id: "3AC210F3D62588E5"
+			rewards: [{
+				count: 3
+				id: "0192A995020081A6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "710D583DC5A1FDF3"
+				item: "minecraft:raw_copper"
+				title: "Obtain 256x Raw Copper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["130D540EB0E0FA05"]
+			id: "63136423F590A256"
+			rewards: [{
+				count: 3
+				id: "0989AC056F3F1142"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "7D2E9B8E677D6978"
+				item: "minecraft:raw_iron"
+				title: "Obtain 256x Raw Iron"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["460D46466454FB56"]
+			id: "743B51A1D935F436"
+			rewards: [{
+				count: 3
+				id: "265F184B8FA040DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "727D19B93009A423"
+				item: "minecraft:raw_gold"
+				title: "Obtain 256x Raw Gold"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B02649F9D2DE68B"]
+			id: "0C58738151895F3D"
+			rewards: [{
+				count: 3
+				id: "1CE20285B19DF7B1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "713A5C9A5026BFC5"
+				item: "minecraft:emerald"
+				title: "Obtain 256x Emeralds"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F85FCA1E9D7EC0C"]
+			id: "704932ED2FA4E231"
+			rewards: [{
+				count: 3
+				id: "5907BFD36E5FEE31"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "2E1C3D9BC85CBBA4"
+				item: "minecraft:diamond"
+				title: "Obtain 256x Diamonds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["306495E0F2514365"]
+			id: "40A728270E4211A2"
+			rewards: [{
+				count: 4
+				id: "6B42DE69A48C3AFB"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 512L
+				id: "636855E7469198F5"
+				item: "minecraft:coal"
+				title: "Obtain 512x Coal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["41CFE324EF44E896"]
+			id: "4B96BC158171122B"
+			rewards: [{
+				count: 4
+				id: "3A4F8D8BB6561869"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 512L
+				id: "6FD277FA3C683588"
+				item: "minecraft:raw_copper"
+				title: "Obtain 512x Raw Copper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["558FD3B7276D1F1F"]
+			id: "4D87C5C478F078D4"
+			rewards: [{
+				count: 4
+				id: "326BB790F5364C6B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 512L
+				id: "226A0089EC1DD1B8"
+				item: "minecraft:raw_iron"
+				title: "Obtain 512x Raw Iron"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7A35F1CBF73434F1"]
+			id: "74D20104DD4B0ED5"
+			rewards: [{
+				count: 4
+				id: "0C45B14EA978B7A8"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 512L
+				id: "4AA02136BEFEF7CF"
+				item: "minecraft:raw_gold"
+				title: "Obtain 512x Raw Gold"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1C38D1959A28AAC9"]
+			id: "4C609F47DBE8EA1B"
+			rewards: [{
+				count: 4
+				id: "7FBA92A3B213A07B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 512L
+				id: "45C9CF77C1318034"
+				item: "minecraft:emerald"
+				title: "Obtain 512x Emeralds"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0A6D57A1AEB97A74"]
+			id: "62E176F434E02DA1"
+			rewards: [{
+				count: 4
+				id: "1CEFB55122DDA7AC"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 512L
+				id: "38FE318F9B4F33FC"
+				item: "minecraft:diamond"
+				title: "Obtain 512x Diamonds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"64A9B949149580A7"
+				"000AB783014ADA30"
+				"0A98FC3CCBD406D7"
+				"6A0C7F5D2171FB67"
+				"4811079127BE4974"
+				"16D03D3270C478CA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "mythicmetals:carmot_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0BD8E2A4807D533A"
+			rewards: [
+				{
+					id: "30D18931EDA9DD1B"
+					item: {
+						Count: 1
+						id: "mythicmetals:carmot_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "fortune"
+								lvl: 5
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.armor_toughness"
+					icon: "ftbquests:book"
+					id: "6C73D8686CD3EEA5"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&6+5 Armor Toughness"
+					type: "bcgutil:attribute"
+					value: 5.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "2C8676F7D010B398"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Ore Collection Milestone IV"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5704251DCB63AE82"]
+			id: "48683E7084BA9FD5"
+			subtitle: "Steel can be crafted into armor and tools, comparable to Bronze. However, Steel armor has the added benefit of Armor Toughness."
+			tasks: [{
+				id: "36C15CC208143010"
+				item: "mythicmetals:steel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "0843037C6C4CF331"
+			rewards: [{
+				count: 3
+				id: "44246CB85D2A39D6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Combine with Iron to create Steel!"
+			tasks: [{
+				id: "2E5AC138B37155C1"
+				item: "mythicmetals:raw_manganese"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "13EFAA0102086567"
+			rewards: [{
+				count: 3
+				id: "0CC02310FFF012B3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Combine with Copper to create Bronze!"
+			tasks: [{
+				id: "212A564F47293680"
+				item: "mythicmetals:raw_tin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2E5C315A52C10BBE"]
+			id: "1112EBC2F111727B"
+			subtitle: "Bronze can be crafted into both armor and tools, and it is slightly stronger than Iron."
+			tasks: [{
+				id: "0EBE6F57B8B10D67"
+				item: "mythicmetals:bronze_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"38E70FA3DAF0ACED"
+				"4590E63606D6B88C"
+			]
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "2A8FF2512577A009"
+			min_required_dependencies: 1
+			size: 1.25d
+			subtitle: "Tier two forge controllers allow you to smelt the strongest metals and provide higher fuel capacity compared to tier one."
+			tasks: [{
+				id: "0AA1A36C8B2206A3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "alloy_forgery:tier_two_forge"
+					}
+				}
+				title: "Any Tier Two Forge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2C6EC52F3852DA3E"
+				"342E9A0C04519049"
+				"6878C0FDAB5A4892"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Alloy Forges are multiblock crafting stations that unlock access to powerful items and enable ore duplication."
+				""
+				"To successfully start forging, arrange your materials in the following manner:"
+				""
+				"&bX = Air&r"
+				"&bB = Bricks&r"
+				"&bF = Forge Controller&r"
+				""
+				"First Layer (Top View):"
+				""
+				"&bB   B   B&r"
+				""
+				"&bB   B   B&r"
+				""
+				"&bB   B   B&r"
+				""
+				"Second Layer:"
+				""
+				"&bX   B   X&r"
+				""
+				"&bB   X   B&r"
+				""
+				"&bX   F   X&r"
+				""
+				"Third Layer:"
+				""
+				"&bX   B   X&r"
+				""
+				"&bB   X   B&r"
+				""
+				"&bX   B   X&r"
+			]
+			id: "319981C6881E45A9"
+			size: 1.25d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "5432B5981FDE6288"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "alloy_forgery:tier_one_forge"
+					}
+				}
+				title: "Any Tier One Forge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"030A5AC4C2B0CBF8"
+				"3545BF3F172E2730"
+			]
+			description: [""]
+			id: "695CFAD93A5B6447"
+			size: 1.25d
+			subtitle: "Tier three forge controllers aren't required to obtain the strongest metals; however, they provide important benefits such as yielding more ingots per ore and higher fuel capacities."
+			tasks: [{
+				id: "021E07429829954B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "alloy_forgery:tier_three_forge"
+					}
+				}
+				title: "Any Tier Three Forge"
+				type: "item"
+			}]
+			title: "Any Tier Three Forge (Victory Lap)"
+			x: 0.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["76161ADE48922230"]
+			id: "5B3C41A2EED7E56B"
+			subtitle: "Durasteel can be crafted into armor and tools. It is slightly weaker than Diamond but has a cool appearance. Most importantly, it is required for crafting the Mythril Drill."
+			tasks: [{
+				id: "55F81EF13FBAF18A"
+				item: "mythicmetals:durasteel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 20.0d
+		}
+		{
+			id: "57C6ABBE6D37C464"
+			rewards: [{
+				count: 4
+				id: "0B4AA541CE858856"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Combine with Manganese to create Durasteel!"
+			tasks: [{
+				id: "24C80901CED70CCC"
+				item: "mythicmetals:raw_quadrillum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			id: "7CE6D4CE073CCD7E"
+			rewards: [{
+				count: 3
+				id: "1738568241DFE582"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Found in Aquatic Biomes."
+			tasks: [{
+				id: "23524B135FC139AB"
+				item: "mythicmetals:raw_aquarium"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			id: "412DD5184B95AF2E"
+			rewards: [{
+				count: 4
+				id: "12F4815250AD755B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Found in the Mountains."
+			tasks: [{
+				id: "1ED8C0881A359164"
+				item: "mythicmetals:raw_osmium"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.5d
+		}
+		{
+			id: "476C25D82F8D36B9"
+			rewards: [{
+				count: 4
+				id: "6FCC75825F5FCD1C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "004EF194050F2804"
+				item: "mythicmetals:raw_kyber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			id: "67451A53C872BF85"
+			rewards: [{
+				count: 4
+				id: "19C1FBB5F88A42C5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09554BFEDA407121"
+				item: "mythicmetals:raw_carmot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			id: "512E67E463E27260"
+			rewards: [{
+				count: 4
+				id: "25246BBE93FA85E2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Found in Warm Biomes."
+			tasks: [{
+				id: "47A004AB543B7CD6"
+				item: "mythicmetals:raw_prometheum"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 17.0d
+		}
+		{
+			description: [""]
+			id: "0EDBABFF56EF0FA3"
+			rewards: [{
+				count: 3
+				id: "77DE2ACBBFC7338E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Be careful when mining Banglum Ore! It is highly explosive, in order to ensure your safety, make sure your pickaxe isn't using Fortune."
+			tasks: [{
+				id: "653E0A91B391A2B6"
+				item: "mythicmetals:raw_banglum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "587FC138DE9B3D3B"
+			rewards: [{
+				count: 4
+				id: "4BC919CB54E29E58"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0554F65D03C2BBBA"
+				item: "mythicmetals:raw_runite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			id: "5CD1BE335846BD34"
+			rewards: [{
+				count: 6
+				id: "19E1CB778FC8F831"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59F3F31685C26656"
+				item: "mythicmetals:raw_mythril"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 21.5d
+		}
+		{
+			id: "2C7B13CCA383B36D"
+			rewards: [{
+				count: 6
+				id: "4781CF93A9E0C3BE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34ED6774FE66C677"
+				item: "mythicmetals:raw_adamantite"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 23.0d
+		}
+		{
+			id: "6DB574353E93EFBC"
+			rewards: [{
+				count: 6
+				id: "054A8C80D7433DFB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "167630C9D12898B8"
+				item: "mythicmetals:raw_orichalcum"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"2AB7B944E06E9349"
+				"438123F1281A293D"
+				"68D5628D0FCD66FA"
+			]
+			id: "44FCE8F9F78CC715"
+			subtitle: "Hallowed Ingots can be crafted into armor and tools. It is slightly weaker than Netherite."
+			tasks: [{
+				id: "2D1922CADCF293E6"
+				item: "mythicmetals:hallowed_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"71516FE0DA01A6BB"
+				"5A5E63C5B47AB9F5"
+				"525DD5C078F8F3E5"
+			]
+			id: "6D6EA2C211E6F326"
+			subtitle: "Celestium's counterpart, Metallurgium, can be crafted into armor and tools. It offers the highest defense."
+			tasks: [{
+				id: "629E654207C86C51"
+				item: "mythicmetals:metallurgium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"396C53BF8BE12308"
+				"5A5E63C5B47AB9F5"
+			]
+			id: "36F1C61B64061CE1"
+			subtitle: "Celestium is one of the strongest metals you'll come across. It can be crafted into armor and tools, is stronger than Netherite, and provides bonus speed and damage."
+			tasks: [{
+				id: "463D2DAC1910D46B"
+				item: "mythicmetals:celestium_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 24.5d
+		}
+		{
+			id: "780C333678EBAA4D"
+			rewards: [{
+				count: 16
+				id: "227EFDB712EC4533"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "An incredibly rare ore that is required to make Celestium and Metallurgium."
+			tasks: [{
+				id: "480992F872CBE333"
+				item: "mythicmetals:unobtainium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.5d
+		}
+		{
+			id: "0B25D5D3E61F9979"
+			tasks: [{
+				id: "35B74AC0926D1483"
+				item: "mythicmetals:raw_palladium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 26.0d
+		}
+		{
+			id: "52E9F0754BA7D6F5"
+			rewards: [{
+				count: 6
+				id: "6AA61E6E7A517B2E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09146906CF348545"
+				item: "mythicmetals:raw_platinum"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 21.5d
+		}
+		{
+			id: "3E9EDF492BFC5265"
+			rewards: [{
+				count: 6
+				id: "17D2A121C826E2B2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be found in The End."
+			tasks: [{
+				id: "63770387304ECA51"
+				item: "mythicmetals:starrite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"197DDED541AEDE73"
+				"26498E941C726E98"
+			]
+			id: "7B04D8EA0228FC9B"
+			subtitle: "Star Platinum can be crafted into armor and tools. Its armor offers slightly lower defense than Diamond but provides bonus attack damage and knockback resistance."
+			tasks: [{
+				id: "6874EF27E58A4719"
+				item: "mythicmetals:star_platinum"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["2E24EC0A482B8CDB"]
+			id: "5B8111C27A5E9FE4"
+			subtitle: "Aquarium can be crafted into tools and armor. It is slightly weaker than Iron but provides helpful benefits when in water."
+			tasks: [{
+				id: "15DB32310D6900DB"
+				item: "mythicmetals:aquarium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2358595FD78776BF"]
+			id: "6166A97A8EA77644"
+			subtitle: "Osmium can be crafted into armor and tools. It is slightly stronger than Diamond."
+			tasks: [{
+				id: "77E83D14137B463C"
+				item: "mythicmetals:osmium_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["377386FF0295D5D0"]
+			id: "22CAD00BED947D68"
+			subtitle: "Kyber can be crafted into armor and tools. It is nearly identical to Diamond but does not provide armor toughness."
+			tasks: [{
+				id: "4853129AD7236D4A"
+				item: "mythicmetals:kyber_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0BB1F6EB0E639E29"]
+			id: "25C41B97517ED0A2"
+			subtitle: "Carmot can be crafted into armor and tools. It is comparable to Diamond. When crafted into armor, it provides bonus shielding, and when crafted into tools, it provides bonus Fortune."
+			tasks: [{
+				id: "7688A42908985F8A"
+				item: "mythicmetals:carmot_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6A3AAA96F7598489"]
+			id: "76CA3F8BF0221AD8"
+			subtitle: "Promethium can be crafted into armor and tools. It is slightly weaker than diamond but provides natural durability regeneration."
+			tasks: [{
+				id: "5FD8832671802FB0"
+				item: "mythicmetals:prometheum_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["79C55614148D74BB"]
+			id: "52DDC67AB6D00EA1"
+			subtitle: "Banglum can be crafted into armor and tools. It is slightly weaker than Diamond."
+			tasks: [{
+				id: "1BE87AE7E1C50450"
+				item: "mythicmetals:banglum_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61B9274E3F249CCB"]
+			id: "31731B894B4B08E4"
+			subtitle: "Runite can be crafted into armor and tools. It is slightly stronger than Iron."
+			tasks: [{
+				id: "690F3B4FF45BFE74"
+				item: "mythicmetals:runite_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			id: "021F7E5B6CBF57DE"
+			rewards: [{
+				id: "63993D863027BF16"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "Fuel Capacity: 96000"
+			tasks: [{
+				count: 15L
+				id: "0A031BB4324A25EF"
+				item: "minecraft:prismarine_bricks"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			id: "1F5BF682A04AB991"
+			rewards: [{
+				id: "7FBBFD55C9F6A45D"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "Fuel Capacity: 96000"
+			tasks: [{
+				count: 15L
+				id: "2A5456A8138F4B86"
+				item: "minecraft:polished_blackstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"64859CFA898AD10D"
+				"38F4DB310B550AB6"
+			]
+			id: "0F23AFBEBFA97BBC"
+			subtitle: "Found in Ancient Cities. Can be duplicated with Diamonds and Deepslate."
+			tasks: [{
+				id: "2A82559CAFBC8758"
+				item: "mythicmetals:unobtainium_smithing_template"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			id: "25EB731AD91BE4F1"
+			rewards: [{
+				count: 5
+				id: "7A875AF2C21387F6"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			subtitle: "The fuel source for the Mythril Drill."
+			tasks: [{
+				id: "55F85B79DC6F0CA3"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["67DC979B98685F3D"]
+			id: "58AA5113C8032835"
+			rewards: [{
+				count: 15
+				id: "6A156F2FA246A760"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			subtitle: "A required ingredient for crafting the Mythril Drill."
+			tasks: [{
+				id: "4E795239956F4F44"
+				item: {
+					Count: 1
+					id: "mythicmetals:mythril_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["4DCCC52DE70B9E11"]
+			id: "0D64D9B150345B1B"
+			rewards: [{
+				count: 15
+				id: "0BB46C442F5E0824"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			subtitle: "A required ingredient for crafting the Mythril Drill."
+			tasks: [{
+				id: "7126B79CBCC2843C"
+				item: "mythicmetals:durasteel_engine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"1B21B12F701CE229"
+				"152CCF469F52F6F3"
+				"766EAE0E11070A1C"
+				"70D35A1819E7356F"
+			]
+			id: "6EBD376C45BBD744"
+			rewards: [{
+				count: 50
+				id: "7F36D7E7D1D59494"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "A super fast digging device powered by Morkite, equipped with two upgrade slots."
+			tasks: [{
+				id: "7BB9B11D402B9298"
+				item: {
+					Count: 1
+					id: "mythicmetals:mythril_drill"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 20.0d
+		}
+		{
+			id: "10C41D8B1DFE8DB5"
+			rewards: [{
+				count: 15
+				id: "627C66CEBBFFB69D"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			subtitle: "A required ingredient for crafting the Mythril Drill."
+			tasks: [{
+				id: "7A5BD1848E31C796"
+				item: "mythicmetals:mythril_drill_smithing_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.5d
+		}
+		{
+			id: "7B3C74C3B0BFDCC4"
+			rewards: [{
+				count: 10
+				id: "6F489E45B93E9551"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			subtitle: "Drill Upgrade: Increases mining speed underwater, and restores air on ore break."
+			tasks: [{
+				id: "1F09725951C4FDF0"
+				item: "mythicmetals:aquarium_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4B36B93A3D2162D9"]
+			id: "650E3B20691E1FD7"
+			rewards: [{
+				count: 10
+				id: "7652AC0C91A1CA3F"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			subtitle: "Drill Upgrade: Increases drill Fortune level by one."
+			tasks: [{
+				id: "2CFC99BA45A355E1"
+				item: "mythicmetals:carmot_stone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2192349B3AEAAF6A"]
+			id: "2C93745832843783"
+			rewards: [{
+				count: 10
+				id: "2D5D39E071B4F75A"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			subtitle: "Drill Upgrade: Gives the user +2 Luck and randomly drops raw Gold on ore break."
+			tasks: [{
+				id: "4AEA6D6083EA8685"
+				item: "mythicmetals:enchanted_midas_gold_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["02A3BD718CAD5E42"]
+			id: "2575D3F156B87DB7"
+			rewards: [{
+				count: 10
+				id: "0CCF5DE19B927CC6"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			subtitle: "Drill Upgrde: Slowly regenerates drill durability."
+			tasks: [{
+				id: "04AE852B6DC862FF"
+				item: "mythicmetals:prometheum_bouquet"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["7461917AB783013F"]
+			id: "7FF10007C4C6712D"
+			rewards: [{
+				count: 10
+				id: "3B017B288D0446D1"
+				item: "mythicmetals:morkite"
+				type: "item"
+			}]
+			subtitle: "Drill Upgrade: Reduces chance of Banglum explosions."
+			tasks: [{
+				id: "023245A46EB08B63"
+				item: "mythicmetals:stormyx_shell"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["76161ADE48922230"]
+			id: "606B62EDD93E1F4D"
+			subtitle: "Quadrillum can be crafted into tools. It is weaker than Diamond."
+			tasks: [{
+				id: "2B88C2189D5E8AF6"
+				item: "mythicmetals:quadrillum_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			id: "20E59F7D0DD8B85B"
+			rewards: [{
+				count: 4
+				id: "7AE08474310F4EB8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EECDE902263FA6A"
+				item: "mythicmetals:raw_midas_gold"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			id: "6BC2D21067C0564D"
+			rewards: [{
+				count: 3
+				id: "1EBB03D8D66F888F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CF2DE10DFC2D142"
+				item: "mythicmetals:raw_silver"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["197DDED541AEDE73"]
+			id: "05F02CBD39FDEA31"
+			subtitle: "Platinum is required to forge Star Platinum and Celestium."
+			tasks: [{
+				id: "5E746770E5A8137E"
+				item: "mythicmetals:platinum_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["726D988EACB7B411"]
+			id: "71A167B19C908FC7"
+			subtitle: "Silver is a fundamental ore that can be crafted into armor, similar in quality to Copper."
+			tasks: [{
+				id: "5222FD8650DB32F3"
+				item: "mythicmetals:silver_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["71C14C60307458A0"]
+			id: "60663AFC97B04CB4"
+			subtitle: "Midas Gold can be crafted into armor and swords. Its armor has lower defense than Diamond but provides +1 Luck on each piece."
+			tasks: [{
+				id: "15ED24D335EA0FD2"
+				item: "mythicmetals:midas_gold_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2E5C315A52C10BBE"]
+			id: "1F7DF8134A184FDA"
+			tasks: [{
+				id: "2FCE1FC8FBA34CF5"
+				item: "mythicmetals:tin_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["438123F1281A293D"]
+			id: "3F6670298569EAD5"
+			subtitle: "Orichalcum can be crafted in to armor and tools. It is stronger than Netherite."
+			tasks: [{
+				id: "7C17CC5D0F137CA9"
+				item: "mythicmetals:orichalcum_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["2AB7B944E06E9349"]
+			id: "3627DB08D74336A7"
+			subtitle: "Adamantite can be crafted into armor and tools. It is comparable to Diamond."
+			tasks: [{
+				id: "6448E923CE077D41"
+				item: "mythicmetals:adamantite_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["68D5628D0FCD66FA"]
+			id: "4D2606D27B88AAD4"
+			subtitle: "Mythril can be crafted into armor and tools. It is comparable to Diamond."
+			tasks: [{
+				id: "1C664B0FA9907310"
+				item: "mythicmetals:mythril_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["525DD5C078F8F3E5"]
+			id: "49C3298C7617E51C"
+			subtitle: "Palladium can be crafted into armor and tools. It is comparable to Diamond and provides natural fire resistance and increased movement speed in lava."
+			tasks: [{
+				id: "79A990B5E4E86381"
+				item: "mythicmetals:palladium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0F016B75EAE7BD74"]
+			description: ["To unlock &6Mastery&r, you must complete all previous milestones."]
+			hide_dependency_lines: true
+			id: "79905F00A769BD09"
+			optional: true
+			rewards: [{
+				attribute: "minecraft:generic.armor_toughness"
+				icon: "ftbquests:book"
+				id: "7D4C48ED99FB98EA"
+				name: "Quest Reward"
+				operation: "add"
+				title: "&6+2 Armor Toughness"
+				type: "bcgutil:attribute"
+				value: 2.0d
+			}]
+			size: 1.5d
+			subtitle: "Sacrifice items for a permanent boost!"
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "1E21B848BD48BD3F"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 96L
+					id: "2813CC4978FE1F9B"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 96L
+					id: "6CD231206DEC2EB0"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 96L
+					id: "14955EB67304B602"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 96L
+					id: "5A153ABBCC83AFE6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "54ABED069DF185ED"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "&6Ore Collection Mastery"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			id: "162ACB410E87C4F1"
+			rewards: [{
+				count: 4
+				id: "0490A7B5480D712C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35F7636AECDA8B4E"
+				item: "mythicmetals:raw_stormyx"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3F09BE2299D88AFF"]
+			id: "3BB814A1705D7A69"
+			subtitle: "Stormyx can be crafted into armor and tools. It is slightly stronger than Iron and provides both armor toughness and magic protection."
+			tasks: [{
+				id: "69F3CC0022A90E55"
+				item: "mythicmetals:stormyx_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["79C55614148D74BB"]
+			id: "251BCE508F195E3D"
+			subtitle: "A necessary ingredient in crafting the powerful Legendary Banglum armor and tools."
+			tasks: [{
+				id: "585CB0354EBFB125"
+				item: "mythicmetals:legendary_banglum_smithing_template"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "47E1367C4ED1B2CC"
+			subtitle: "Fuel Capacity: 192000"
+			tasks: [{
+				count: 15L
+				id: "3748B0A2C78D6651"
+				item: "mythicmetals:adamantite_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 27.5d
+		}
+		{
+			id: "4ECE0060064A0536"
+			subtitle: "Fuel Capacity: 192000"
+			tasks: [{
+				count: 15L
+				id: "2A9CD8B7CC242DE7"
+				item: "minecraft:end_stone_bricks"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["6DFD7DB293F48D15"]
+			description: [
+				"The Carmot Staff is a powerful weapon whose abilities change based on the block placed inside."
+				""
+				"Found in Village Temples, but if you can't find one, it's available for 32 Carmot Ingots!"
+				"The Carmot Staff has a variety of abilities:"
+				""
+				"&bIron&r: Fling opponents up, strengthens the staff."
+				""
+				"&bGold&r: Grants luck for two minutes."
+				""
+				"&bCopper&r: Summons lightning on yourself."
+				""
+				"&bDiamond&r: Strengthens the staff."
+				""
+				"&bBronze&r: Smite opponents with lightning."
+				""
+				"&bNetherite&r: Powerful melee weapon, greatly strengthens the staff."
+				""
+				"&bMetallurgium&r: Highest single-hit damage in Mythic Metals, but very slow."
+				""
+				"&bCarmot&r: Heals you and nearby entities for 5 hearts."
+				""
+				"&bMidas Gold&r: Grants Luck 2 to you and nearby entities for four minutes."
+				""
+				"&bRunite&r: Barrages enemies in ice, freezing them."
+				""
+				"&bStar Platinum&r: Super fast attack speed."
+				""
+				"&bBeacon&r: Grants random beacon effects to players in an 18-block radius for 30 minutes."
+				""
+				"&bLapis&r: Increases experience gain while held."
+				""
+				"&bStormyx&r: Creates a forcefield that reflects projectiles while held."
+				""
+				"&bSponge&r: Removes water in a 12-block radius."
+				""
+				"&bHallowed&r: Significantly strengthens the staff."
+			]
+			icon: {
+				Count: 1
+				id: "mythicmetals:carmot_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0504C4925CD827B3"
+			rewards: [{
+				id: "25EC3C5086D8BD9E"
+				item: {
+					Count: 1
+					id: "mythicmetals:carmot_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "4048E0CBBDF82F3F"
+				item: "mythicmetals:carmot_ingot"
+				type: "item"
+			}]
+			title: "Carmot Staff"
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			id: "25CB0B547631C1F1"
+			rewards: [{
+				count: 8
+				id: "19876B1EB9A8802E"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Fuel Capacity: 48000"
+			tasks: [{
+				count: 15L
+				id: "02F1E41F6A0B7D99"
+				item: { Count: 15, id: "minecraft:stone_bricks" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "18EF7087D44FC3BD"
+			rewards: [{
+				id: "558CC15692C4197F"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "Fuel Capacity: 96000"
+			tasks: [{
+				count: 15L
+				id: "50B044390B9B6C42"
+				item: { Count: 15, id: "minecraft:deepslate_bricks" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "13309E38FFF0789F"
+			rewards: [{
+				count: 8
+				id: "311C303D16F6934B"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Fuel Capacity: 48000"
+			tasks: [{
+				count: 15L
+				id: "5AEB8EE6D5F883FE"
+				item: { Count: 15, id: "minecraft:bricks" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["&6Armor Toughness"]
+	title: " &cO&fre Collection"
+}

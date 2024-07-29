@@ -1,0 +1,1 @@
+# 此翻譯僅適用於 BigChadGuys Plus (w/ Cobblemon!) 2.3.1

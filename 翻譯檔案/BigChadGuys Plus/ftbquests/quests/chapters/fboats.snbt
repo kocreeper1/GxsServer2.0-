@@ -1,0 +1,190 @@
+{
+	autofocus_id: "20CC2B81B58D09F7"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fboats"
+	group: "257DC2A7DFE41B29"
+	icon: "smallships:oak_cog"
+	id: "51930B643693CF94"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"雙桅帆船是另一種中世紀雙桅貿易船,專為寒冷水域設計。"
+				""
+				"它可以安裝最多6門大炮用於防禦。"
+				""
+				"可容納包括船長在內的11名乘客,在貿易和海戰中都表現出色。雙桅帆船擁有45公里/小時的最高速度、良好的機動性,以及400血量的堅固船體。"
+			]
+			id: "546811E28D0C421E"
+			rewards: [{
+				id: "72DF10D039D08A52"
+				item: "smallships:cannon"
+				type: "item"
+			}]
+			subtitle: "點擊以了解更多!"
+			tasks: [{
+				id: "23F29D2420C9A6B1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:briggs"
+					}
+				}
+				title: "任何雙桅帆船"
+				type: "item"
+			}]
+			title: "任何雙桅帆船"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"槳船專為溫暖水域和海戰而設計。"
+				""
+				"它具有令人印象深刻的機動性,最高速度可達40公里/小時。"
+				""
+				"可容納包括船長在內的9名乘客,船體強度為200血量,在各種情況下都是一艘很有前途的船隻。"
+			]
+			id: "143C1FFF1C05FC2C"
+			rewards: [{
+				count: 12
+				id: "0E235EDEA551D71C"
+				item: "smallships:cannon_ball"
+				type: "item"
+			}]
+			subtitle: "點擊以了解更多!"
+			tasks: [{
+				id: "7A64CB0FB3B2A8FD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:galleys"
+					}
+				}
+				title: "任何槳船"
+				type: "item"
+			}]
+			title: "任何槳船"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"龍船專為寒冷水域環境而設計。"
+				""
+				"它擁有出色的機動性,最高速度可達30公里/小時。"
+				""
+				"可容納包括船長在內的11名乘客,船體強度為200血量。可以附加帶有旗幟圖案的盾牌以提供額外防禦。"
+				""
+				"憑藉其破冰能力,它在寒冷和結冰的海洋中是一艘非常有前途的船隻。"
+			]
+			id: "4A79446E7F5419E4"
+			rewards: [{
+				id: "01065220A04C6B6B"
+				item: "smallships:cannon"
+				type: "item"
+			}]
+			subtitle: "點擊以了解更多!"
+			tasks: [{
+				id: "7C12946FB85594B0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:drakkars"
+					}
+				}
+				title: "任何龍船"
+				type: "item"
+			}]
+			title: "任何龍船"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "51093C69C9E47B74"
+			subtitle: "只需對著船右鍵點擊即可安裝大炮。較大的船隻可以搭載更多大炮。"
+			tasks: [{
+				id: "4F5EE4FBB1B5A38F"
+				item: "smallships:cannon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "127ABD36A51DC8DC"
+			subtitle: "當放置在船的庫存中時,按空格鍵即可發射大炮。"
+			tasks: [{
+				id: "7686A16D1264F150"
+				item: "smallships:cannon_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"商船是一種用於寒冷水域的中世紀貿易船。"
+				""
+				"它可以安裝最多4門大炮用於防禦。"
+				""
+				"可容納包括船長在內的5名乘客,其機動性可能不是最好的,但它以40公里/小時的最高速度和300血量的堅固船體,成為一艘出色的貿易船隻。"
+			]
+			id: "26113FAA900993FE"
+			rewards: [{
+				count: 12
+				id: "3076E8F9ADF2438C"
+				item: "smallships:cannon_ball"
+				type: "item"
+			}]
+			subtitle: "點擊以了解更多!"
+			tasks: [{
+				id: "3307594B62C980F1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:cogs"
+					}
+				}
+				title: "任何商船"
+				type: "item"
+			}]
+			title: "任何商船"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&b小型船隻&r引入了一系列新的船隻,每種船隻都有其獨特的用途。"
+				""
+				"放置船隻時要小心謹慎!它們非常耐用,如果放置不當可能會造成相當大的麻煩!"
+			]
+			icon: "ftbquests:book"
+			id: "20CC2B81B58D09F7"
+			optional: true
+			rewards: [{
+				id: "53D09132258429EC"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "點擊以了解更多!"
+			tasks: [{
+				id: "122EC2745F3C91C0"
+				title: "接受獎勵"
+				type: "checkmark"
+			}]
+			title: "&a船隻"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: " &a船隻"
+}
